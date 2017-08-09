@@ -1,29 +1,47 @@
- .bodyContainer {
-     margin: 0 auto;
-     height: 100%;
-     width: 80%;
-     background-color: #669999
- }
- 
- input {
-     margin: 50px 0 25px 0;
-     padding: 10px 50px;
-     text-align: left;
-     font-size: 2rem;
-     border: 2px solid gray;
- }
- 
- hr {
-     margin-bottom: 50px;
-     width: 1100px;
-     margin-right: 100px;
- }
- 
- .image-parent {
-     display: flex;
-     flex-wrap: wrap;
- }
- 
- .thumb {
-     margin: 0 20px 20px 0;
- }
+                         .bodyContainer {
+                             margin: 0 auto;
+                             height: 100%;
+                             width: 80%;
+                             background-color: #669999
+                         }
+                         
+                         input {
+                             margin: 50px 0 25px 0;
+                             padding: 10px 50px;
+                             text-align: left;
+                             font-size: 2rem;
+                             border: 2px solid gray;
+                         }
+                         
+                         hr {
+                             margin-bottom: 50px;
+                             width: 1100px;
+                             margin-right: 100px;
+                         }
+                         
+                         .images {
+                             display: flex;
+                             flex-wrap: wrap;
+                             text-align: center;
+                             margin: 50px auto;
+                         }
+                         
+                         img {
+                             margin: 0 20px 20px 0;
+                             width: 180px;
+                             height: 180px;
+                             background-size: cover;
+                             position: relative;
+                             flex-grow: 1;
+                         }
+                         
+                         .images a {
+                             margin: 20px 20px;
+                             display: inline-block;
+                             text-decoration: none;
+                             color: white;
+                             background-color: gray;
+                             width: 180px;
+                             font-size: 0.8rem;
+                             text-align: center;
+                         }
